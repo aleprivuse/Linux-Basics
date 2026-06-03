@@ -6,6 +6,7 @@ Here is the most important thing to learn, if you want to install or remove a fi
 
 `apt` stands for = Advanced Package Tool (a package is a software)
 
+`sudo` stands for = Superuser do (or just admin)
 ## Commands
 
 1. `sudo apt update` = it's going to refresh the list of the most recent software
