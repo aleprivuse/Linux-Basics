@@ -18,3 +18,4 @@ ip a
 | `curl -I google.com` | Get the headers of a website |
 | `ssh user@ip` | Connect to another machine if you have the username and the IP |
 | `wget url` | Download a file |
+|control + c| to exit the ping loop|
