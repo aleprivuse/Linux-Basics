@@ -1,7 +1,5 @@
 # Networking 101
 
->  Before you go into this folder, finish the **basics folder** first, then you can move on.
-
 ---
 
 ## Ports
