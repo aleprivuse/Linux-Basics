@@ -1,22 +1,28 @@
-# Linux basics command
+# Linux Basic Commands
 ---
-## file navigation
 
-1. pwd  = it shows wheare are you
-2. ls  = show file and folders in you current view
-3. ls -la = shows the all the details
-4. cd .. = go up one level on the familiar tree
-5. cd = move in there
-6. mkdir = create a file
-7. touch = it create and empty file
-8. echo = it adds text inside the file that touch created : if you use it whit > its gonna generate new text ; if you use >> its gonna add the new text and keeping the old one
-9. cat = show the file and text
-10. rm file.txt = the delition of the file
-11. rm -r folder = the delition of the enitre folder
+## File Navigation
 
-### here is a example 
+1. `pwd` = shows where you are
+2. `ls` = shows files and folders in your current directory
+3. `ls -la` = shows all details including hidden files
+4. `cd ..` = go up one level in the folder tree
+5. `cd` = move into a folder
+6. `mkdir` = create a folder
+7. `touch` = creates an empty file
+8. `echo` = adds text inside a file:
+   - `>` generates new text (overwrites)
+   - `>>` adds new text and keeps the old one
+9. `cat` = shows the content of a file
+10. `rm file.txt` = deletes a file
+11. `rm -r folder` = deletes an entire folder
 
-mkdir testy<br>
-touch test/text.txt<br>
-echo "Im learning LINUX" > test/text.txt (you can use the >> if you you want to keep the old text)<br>
-cat test/text.txt<br>
+### Example
+
+```bash
+mkdir test
+touch test/text.txt
+echo "I'm learning Linux" > test/text.txt
+cat test/text.txt
+```
+> Use `>>` instead of `>` if you want to keep the old text.
