@@ -4,7 +4,7 @@ before starting this make sure you already completed the setup folder
 
 ## What are we gonna learn
 
-here you are gonna learn the bacics of linux and learning his commands.
+here you are gonna learn the basics of linux and learning his commands.
 
 this are the concept you are gonna learn :
 
