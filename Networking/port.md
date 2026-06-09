@@ -53,3 +53,8 @@ ss -tuln
 | `-l` | listening (waiting for connections) |
 | `-n` | show numbers, not names |
 
+
+To see all open ports on a machine, run: :
+```bash
+nmap (Ip addres)
+```
