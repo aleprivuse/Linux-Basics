@@ -85,9 +85,9 @@ With google.com:
 - **Outgoing** → you send a request to google.com to access their server
 - **Incoming** → Google sends the page back to you
 
-### what to do if a virus is inside your server 
+### What to do if a virus is inside your server?
 
-  you should not just block incoming but outcoimg too
+You should not just block incoming but outcoimg too.
 
 ### Why block outgoing too?
 
@@ -95,7 +95,7 @@ Blocking incoming is not enough. If a virus is already
 inside your server it doesnt need incoming traffic — 
 it just calls home by itself through outgoing:
 
-your server ──► hacker:4444 (OUTGOING)
+Your server ──► hacker:4444 (OUTGOING)
 
 Thats why you also block outgoing and only allow 
 the ports you actually need (80, 443, 22).
