@@ -54,7 +54,7 @@ ss -tuln
 | `-n` | show numbers, not names |
 
 
-To see all open ports on a machine, run: :
+Or you can use this command too: :
 ```bash
 nmap (Ip addres)
 ```
