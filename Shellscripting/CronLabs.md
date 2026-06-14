@@ -51,9 +51,9 @@ crontab -l
 
 ```bash
 # append to file (keeps old results)
-0 8 * * * bash /home/user/script.sh >> /home/user/report.txt
+0 8 * * * bash /home/(your username)/script.sh >> /home/user/report.txt
 
 # overwrite file (starts fresh every time)
-0 8 * * * bash /home/user/script.sh > /home/user/report.txt
+0 8 * * * bash /home/(your username)/script.sh > /home/user/report.txt
 ```
-
+if you dont know your username use this `whoami`
