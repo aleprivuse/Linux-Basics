@@ -27,3 +27,16 @@ Add this line:
 30 8 * * * bash /home/(your username)/update.sh
 ```
 
+## when using 
+
+When you run the bash script you might have this problem.
+
+### Problem — apt is locked / "Waiting for cache lock"
+
+While running an update manually, it got stuck waiting because 
+Ubuntu's automatic security updates (`unattended-upgrades`) were 
+already running in the background and holding the lock.
+
+**Solution:** Just wait — never force-kill it, as that could 
+corrupt the package database. Ubuntu runs this automatically 
+to install security patches even without user interaction.
