@@ -1,5 +1,5 @@
 # Before staring
-Before staring your journey of linxu make sure you have a latop and some internet connection
+Before staring your journey of linux make sure you have a latop and some internet connection
 
 ## what are we gonna do
 
