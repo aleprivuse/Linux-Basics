@@ -19,3 +19,4 @@ ip a
 | `ssh user@ip` | Connect to another machine if you have the username and the IP |
 | `wget url` | Download a file |
 |control + c| to exit the ping loop|
+|`exit`      |to exit from the ssh connection|
